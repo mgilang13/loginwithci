@@ -14,7 +14,7 @@
 
     <!-- Divider -->
     <hr class="sidebar-divider">
-
+    <?= $this->session->userdata('role_id'); ?>
     <!-- Heading -->
     <div class="sidebar-heading">
         Administrator
@@ -23,7 +23,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
         <a class="nav-link" href="index.html">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fa-fw fas fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
 

@@ -10,7 +10,7 @@ class Migration extends CI_Controller
     }
     public function index()
     {
-        if (!$this->migration->version(2)) {
+        if (!$this->migration->version(5)) {
             show_error($this->migration->error_string());
         } else {
             echo 'Migration worked!';
